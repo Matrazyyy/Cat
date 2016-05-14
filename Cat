@@ -1,0 +1,49 @@
+public class Cat {
+    private String name;
+    private int age;
+    private int weight;
+
+    public Cat(String name, int age, int weight){
+        this.name = name;
+        this.age = age;
+        this.weight = weight;
+    }
+    Cat(){
+
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+    public void murMur(){
+        System.out.println("Mur...mur, thank You God, it's friday");
+
+
+
+    }
+    @Override
+    public String toString(){
+        return "Cat: "+name+", weight "+weight+" kg"+", and he "+age+" years old";
+    }
+
+}
